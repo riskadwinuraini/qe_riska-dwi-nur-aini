@@ -15,3 +15,22 @@ Adapun tipe dari software testing
 3. Maintenance terdiri dari Regression
 
 Levels dari testing terdiri dari unit testing, integration testing, system testing, acceptance testing
+
+Software Testing as a Career Path & Intro to Testing
+
+- Test Management Tools
+Technicall skills menggunakan
+	-pivotal tracker, 
+	- jira software, 
+	- rest assured, 
+	- codeconceptance. 
+Automation testing tools terdiri dari 
+	- katalon, 
+	- karate DSL
+
+Software Tester Career Path terdiri dari 
+1. Junior Quality Engineer (Fresher), 
+2. Quality Engineer (1-2 years experience), 
+3. Senior Quality Engineer (>3 years experience), 
+4. Quality Engineer Lead (5-6 years experience), 
+5. Quality Engineer Manager(8-11 year experience)
