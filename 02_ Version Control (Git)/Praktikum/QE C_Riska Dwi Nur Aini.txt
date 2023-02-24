@@ -16,4 +16,6 @@ Tugas Prioritas 2
 			- https://ibb.co/WKqFchK
 
 Tugas Explorasi 
-Pada repository lain yang saya buat terdapat file index.php pada branch main. kemudian saya menambahkan file1.php pada branch progress dan melakukan merger pull request.
+Membuat branch baru bernama progress kemudian pada git bash diketikkan dengan ``git checkout progress ``  untuk berpindah dari branch main ke branch progress, kemudian bikin sebuah file Bernama readme.md dan diberi juga text dan setelah itu dipush dengan menggunakan branch progress kemudian buka repository tersebut dan membuat pull request pada branch progress.
+- https://ibb.co/mDShBQg
+- https://ibb.co/jMMsPfd
