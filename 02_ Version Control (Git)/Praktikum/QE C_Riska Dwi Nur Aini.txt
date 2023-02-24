@@ -1,0 +1,19 @@
+Tugas Prioritas 1
+
+1. Buatlah sebuah repository github yang sesuai dengan nama QE_riska dwi nur aini : https://ibb.co/TBR09WJ
+2. 	a. Membuat folder melalui eksploler dengan format 02_Version Control (Git) : https://ibb.co/gvPZgBp
+	b. Pada setiap folder akan berisikan sub folder berisi folder praktikum, folder screenshoot dan readme yang isinya berupa summary dari materi git seperti berikut : https://ibb.co/LtdTHpn
+	C. Selanjutnya lakukan "git add ." untuk menambahkan folder dan file baru yang terdapat di repository local dan saya melakukan perintah " git commit -m (pesan yang dimasukkan) " kemudian masukkan perintah " git push ". : https://ibb.co/1TfY8j2
+
+Tugas Prioritas 2
+1.	a. Membuat branch baru pada github yaitu menggunakan perintah git checkout -b (nama branch) atau git branch (nama branch). Disini saya menggunakan nama branch praktik_1 dan diisi dengan menambahkan file readme kemudian lakukan git add setelah itu git commit - am "menambahkan readme". Kemudian git push pada nama branch saya yaitu praktik_1 : https://ibb.co/0Fkbc0h
+	b. 	1.Pindah ke branch baru dengan perintah "git checkout nama-branch-baru. Kemudian tambahkan file baru ke dalam repository : https://ibb.co/Rv80ytX
+		2.Setelah berhasil menambahkan file baru ke branch yang telah dibuat sebelumnya, akan muncul opsi untuk membandingkan perbedaan antara branch master yang telah diubah dengan branch utama. langkah selanjutnya yang perlu dilakukan adalah melakukan pull request dengan mengikuti prosedur yang telah ditentukan pada Git :
+			- https://ibb.co/pJ7fvGN
+			- https://ibb.co/d5tbkyC
+			- https://ibb.co/x83Kpmz
+			- https://ibb.co/bNHH7Vx
+			- https://ibb.co/WKqFchK
+
+Tugas Explorasi 
+Pada repository lain yang saya buat terdapat file index.php pada branch main. kemudian saya menambahkan file1.php pada branch progress dan melakukan merger pull request.
