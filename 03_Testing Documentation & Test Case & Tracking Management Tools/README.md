@@ -29,3 +29,5 @@ Jira adalah alat bantu yang bertujuan untuk pelacakan bugs, pelacakan issue dan 
 	f. Done : Panel ini berisi fitur yang sudah lolos dari criteria testing oleh team development
 4. 7 Point penting yang perlu diperhatikan dalam membuat issue : project, issues type, reporter, description,priority,assignee, sprint
 5. Macam-macam type Issues : story (membuat fitur baru), task (perincian tugas), bug (penemuan bug),dan epic (pengelompokan task)
+
+Link Tugas Testing Documentation : https://docs.google.com/spreadsheets/d/1Q_Wc395lvZqsnwTbV74yBb9jvdLRudg262klKKC5GZE/edit#gid=1424824084
