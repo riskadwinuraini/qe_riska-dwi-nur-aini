@@ -20,11 +20,11 @@ public class Tugas6 {
     public static void main(String[] args) {
         int[] arr1 = {2, 1, 5, 1, 3, 2};
         int k1 = 3;
-        System.out.println(findMaxSumSubarray(arr1, k1)); // Output: 9
+        System.out.println("Subarray dengan jumlah maksimum adalah "+findMaxSumSubarray(arr1, k1)); // Output: 9
 
         int[] arr2 = {2, 3, 4, 1, 5};
         int k2 = 2;
-        System.out.println(findMaxSumSubarray(arr2, k2)); // Output: 7
+        System.out.println("Subarray dengan jumlah maksimum adalah "+findMaxSumSubarray(arr2, k2)); // Output: 7
     }
 
 }
