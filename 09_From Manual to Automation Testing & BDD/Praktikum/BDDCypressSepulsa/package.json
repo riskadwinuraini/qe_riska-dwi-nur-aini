@@ -8,10 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "cypress": "^12.8.1"
-  },
   "devDependencies": {
+    "cypress": "^12.8.1",
     "cypress-cucumber-preprocessor": "^4.3.1"
   }
 }
