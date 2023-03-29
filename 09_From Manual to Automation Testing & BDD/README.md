@@ -75,3 +75,6 @@ Cucumber adalah alat uji fungsional yang membantu dalam membangun dan menjalanka
 Dalam BDD with Cucumber, penggunaan bahasa yang mudah dipahami oleh manusia, seperti bahasa Inggris, digunakan untuk menulis skenario pengujian.
 Dalam BDD with Cucumber, penggunaan bahasa yang mudah dipahami oleh manusia, seperti bahasa Inggris, digunakan untuk menulis skenario pengujian"
 Skenario pengujian ini ditulis dalam format yang disebut Gherkin.
+
+Note :
+Link Github pada Tugas Explorasi : https://github.com/riskadwinuraini/BDDCypress
