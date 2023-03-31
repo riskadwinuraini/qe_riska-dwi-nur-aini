@@ -22,9 +22,6 @@
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/Message.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/Profile.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/features/login.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BDDCypressSepulsa/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BDDCypressSepulsa/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BDDCypressSepulsa/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BDDCypressSepulsa/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BDDCypressSepulsa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../BDDCypressSepulsa/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +36,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
