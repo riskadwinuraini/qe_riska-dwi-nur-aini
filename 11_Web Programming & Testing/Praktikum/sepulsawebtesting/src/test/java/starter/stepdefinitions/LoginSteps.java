@@ -22,14 +22,20 @@ public class LoginSteps {
         loginPage.validateOnLoginPage();
     }
 
-    @When("I input valid email")
+    @When("I click enter button")
+    public void clickMasukButton(){
+        loginPage.clickMasukButton();
+    }
+
+
+    @And("I input valid Email")
     public void inputValidEmail(){
         loginPage.inputEmail("riskadwi583@gmail.com");
     }
 
-    @When("I input invalid email")
+    @And("I input invalid email")
     public void inputInvalidEmail(){
-        loginPage.inputEmail("riskadwi583@@gmail.com");
+        loginPage.inputEmail("riska583@@gmail.com");
     }
 
     @And("I input valid password")
@@ -42,18 +48,19 @@ public class LoginSteps {
         loginPage.inputPassword("ris123");
     }
 
-    @And("I click enter button")
-    public void clickEnterButton(){
-        loginPage.clickEnterButton();
-    }
+    @And("I click login button")
+    public void doClickLoginButton(){
+        loginPage.clickButtonLogin();}
 
     @Then("I am on the home page")
     public void onTheHomePage(){
         homePage.validateOnHomePage();
     }
 
-    @Then("I can see error message")
-    public void doSeeErrorMessage(){
+    @Then("I can see error message {string}")
+    public void doSeeErrorMessage(String message){
+        loginPage.validateErrorMessageDisplayed();
+        loginPage.validateEqualErrorMessage(message);
 
     }
 }

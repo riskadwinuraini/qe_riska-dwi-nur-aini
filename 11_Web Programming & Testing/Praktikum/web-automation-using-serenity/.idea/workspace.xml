@@ -5,11 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6541a7e6-1dbb-44a5-bfb7-56806d8f9987" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../sepulsawebtesting/serenity.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sepulsawebtesting/src/test/java/starter/CucumberTestSuite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sepulsawebtesting/src/test/java/starter/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sepulsawebtesting/src/test/java/starter/stepdefinitions/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../sepulsawebtesting/src/test/resources/feature/Login.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
@@ -24,7 +19,10 @@
       <change afterPath="$PROJECT_DIR$/src/test/java/starter/stepdefinitions/LoginSteps.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/feature/Login.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/resources/webdriver/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../10_RESTfull API Testing with REST Assured/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../10_RESTfull API Testing with REST Assured/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sepulsawebtesting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sepulsawebtesting/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sepulsawebtesting/src/test/java/starter/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sepulsawebtesting/src/test/java/starter/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sepulsawebtesting/src/test/java/starter/stepdefinitions/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sepulsawebtesting/src/test/java/starter/stepdefinitions/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sepulsawebtesting/src/test/resources/feature/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/../sepulsawebtesting/src/test/resources/feature/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

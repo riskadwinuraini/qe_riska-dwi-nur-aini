@@ -5,17 +5,17 @@ import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
 
 public class LoginPage extends PageObject {
-    private By emailField() {
-        return By.id("email");
-    }
 
+    private By MasukButton(){
+        return By.id("button_signin_home");
+    }
+    private By emailField() {return By.id("email");}
     private By passwordField() {
         return By.id("password");
     }
+    private By ButtonLogin(){return By.id("submit_login");}
+    private By errorMessage(){ return By.id("alert_description");}
 
-    private By enterButton() {
-        return By.id("submit_login");
-    }
 
     @Step
     public void openPage(){
@@ -24,12 +24,12 @@ public class LoginPage extends PageObject {
 
     @Step
     public boolean validateOnLoginPage(){
-        return $(enterButton()).isDisplayed();
+        return $(MasukButton()).isDisplayed();
     }
 
     @Step
-    public void inputEmail(String email){
-        $(emailField()).type(email);
+    public void inputEmail(String phone){
+        $(emailField()).type(phone);
     }
 
     @Step
@@ -38,8 +38,22 @@ public class LoginPage extends PageObject {
     }
 
     @Step
-    public void clickEnterButton(){
-        $(enterButton()).click();
+    public void clickMasukButton(){
+        $(MasukButton()).click();
+    }
+
+    @Step
+    public void clickButtonLogin(){
+        $(ButtonLogin()).click();
+    }
+
+    @Step
+    public boolean validateErrorMessageDisplayed(){
+        return $(errorMessage()).isDisplayed();
+    }
+    @Step
+    public boolean validateEqualErrorMessage(String message){
+        return $(errorMessage()).getText().equalsIgnoreCase(message);
     }
 
 }

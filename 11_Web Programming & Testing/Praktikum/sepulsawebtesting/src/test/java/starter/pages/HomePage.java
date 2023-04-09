@@ -8,7 +8,6 @@ public class HomePage extends PageObject {
     private By title() {
         return By.className("title");
     }
-
     @Step
     public void validateOnHomePage() {
         $(title()).isDisplayed();
