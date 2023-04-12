@@ -44,3 +44,6 @@ c.  = [] : child operator (array)
 d. .. : recursive descent (langsung ke objek)
 e. *= : wildcard (all things)
 f. [start:end] : array slice operator borrowed
+
+
+LINK TUGAS : https://docs.google.com/document/d/1Lf-1ZKjuPJIKuP01qC4STYITWH7WocO-/edit?usp=share_link&ouid=114955075383152863674&rtpof=true&sd=true

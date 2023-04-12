@@ -34,14 +34,14 @@ public class UserSteps {
         get.getHTTPrequest();
     }
 
-    @And("I receive valid data response code 200")
-    public void validData(){
-        get.valiData();
-    }
-
     @Then("I receive valid data for detail user")
     public void HTTPresponse200(){
         get.HTTPresponse200();
+    }
+
+    @And("I receive valid HTTP response code 200")
+    public void validData(){
+        get.valiData();
     }
 
     @Given("I set POST api endpoints")
@@ -74,11 +74,6 @@ public class UserSteps {
         put.sendPutHttpRequest();
     }
 
-    @Then("I received the correct HTTP response code which was 200")
-    public void Response200(){
-        put.Response200();
-    }
-
     @And("I receive valid data for update user")
     public void validateDataUpdateUser(){
         put.validateDataUpdateUser();
@@ -94,13 +89,4 @@ public class UserSteps {
         delete.sendDeleteHttpRequest();
     }
 
-    @Then("I receive valid HTTP response code 204")
-    public void ValidHttpResponseCode204(){
-        delete.ValidHttpResponseCode204();
-    }
-
-    @And("I can delete data by id")
-    public void DeleteValid(){
-        delete.DeleteValid();
-    }
 }

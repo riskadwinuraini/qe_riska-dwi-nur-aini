@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class PostIDPositif {
 
-    protected String url = "https://jsonplaceholder.typicode.com/posts";
+    protected String url = "https://jsonplaceholder.typicode.com/";
 
     @Step("I set POST api endpoints")
     public String setPostApiEndpoints(){
@@ -19,9 +19,9 @@ public class PostIDPositif {
     @Step("I send POST HTTP request")
     public void sendPostHttpRequest(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("user_id","10");
-        requestBody.put("title","Bunga Matahari");
-        requestBody.put("body","bunga matahari yang indah berwarna kuning");
+        requestBody.put("user_id","1");
+        requestBody.put("title","tugas restfullapi");
+        requestBody.put("body","Selamat belajar restfull api testing");
 
         SerenityRest.given().header("Content-Type","application/json").body(requestBody.toJSONString()).post(setPostApiEndpoints());
     }
@@ -33,9 +33,9 @@ public class PostIDPositif {
 
     @Step("I receive valid data for new user")
     public void validateDataNewUser(){
-        restAssuredThat(response -> response.body("'user_id'", equalTo("10")));
-        restAssuredThat(response -> response.body("'title'", equalTo("Bunga Matahari")));
-        restAssuredThat(response -> response.body("'body'", equalTo("bunga mata hari yang indah berwarna kuning")));
+        restAssuredThat(response -> response.body("'user_id'", equalTo("1")));
+        restAssuredThat(response -> response.body("'title'", equalTo("tugas restfullapi")));
+        restAssuredThat(response -> response.body("'body'", equalTo("Selamat belajar restfull api testing")));
     }
 
 }

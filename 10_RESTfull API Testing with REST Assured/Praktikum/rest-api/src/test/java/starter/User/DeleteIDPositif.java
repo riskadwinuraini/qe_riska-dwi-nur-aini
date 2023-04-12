@@ -7,7 +7,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class DeleteIDPositif {
 
-    protected static String url = "https://jsonplaceholder.typicode.com/posts/1";
+    protected static String url = "https://jsonplaceholder.typicode.com/";
 
     @Step("I set DELETE api endpoints")
     public String setDeleteApiEndpoints(){
@@ -17,13 +17,4 @@ public class DeleteIDPositif {
     public void sendDeleteHttpRequest(){
         SerenityRest.given().delete(setDeleteApiEndpoints());
     }
-    @Step("I receive valid HTTP response code 204")
-    public void ValidHttpResponseCode204(){
-        restAssuredThat(response -> response.statusCode(204));
-    }
-    @Step("I can delete data by id")
-    public void DeleteValid(){
-        restAssuredThat(response -> response.statusCode(204));
-    }
-
 }
