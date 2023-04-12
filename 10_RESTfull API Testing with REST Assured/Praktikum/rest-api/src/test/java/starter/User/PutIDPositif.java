@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.equalTo;
 
 public class PutIDPositif {
 
-    protected String url = "https://jsonplaceholder.typicode.com/";
+    protected String url = "https://jsonplaceholder.typicode.com";
 
     @Step("I set PUT api endpoints")
     public String setPutApiEndpoints(){

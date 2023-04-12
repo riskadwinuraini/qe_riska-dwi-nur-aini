@@ -20,6 +20,7 @@ public class GetIDPositif {
         SerenityRest.given()
                 .when()
                 .get(setGetEndpoints());
+
     }
     @Step("I receive valid data for detail user")
     public void HTTPresponse200(){
