@@ -30,5 +30,6 @@ public class PostLogin {
     public void receiveCorrectDataLogin(){
         restAssuredThat(response -> response.body("username'", equalTo("mor_2314")));
         restAssuredThat(response -> response.body("'password'", equalTo("83r5^_")));
+
     }
 }
