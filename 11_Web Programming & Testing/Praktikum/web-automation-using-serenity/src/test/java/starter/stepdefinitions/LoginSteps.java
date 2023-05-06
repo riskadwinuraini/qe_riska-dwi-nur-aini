@@ -53,4 +53,28 @@ public class LoginSteps {
         loginPage.validateEqualErrorMessage(message);
     }
 
+
+    @Given("I am on the register page")
+    public void iAmOnTheRegisterPage() {
+    }
+
+    @When("I input valid Nama Lengkap")
+    public void iInputValidNamaLengkap() {
+    }
+
+    @When("I input valid Email")
+    public void iInputValidEmail() {
+    }
+
+    @When("I input valid Password")
+    public void iInputValidPassword() {
+    }
+
+    @Then("I am on the Home Page")
+    public void iAmOnTheHomePage() {
+    }
+
+    @And("I click register button")
+    public void iClickRegisterButton() {
+    }
 }

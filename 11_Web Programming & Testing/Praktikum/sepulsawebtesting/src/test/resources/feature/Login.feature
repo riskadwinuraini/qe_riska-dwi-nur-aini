@@ -8,6 +8,7 @@ Feature: login sepulsa
     And I click login button
     Then I am on the home page
 
+
     Scenario: As user, I can't login successfully
       Given I am on the login page
       When I click enter button
@@ -15,6 +16,8 @@ Feature: login sepulsa
       And I input invalid password
       And I click login button
       Then I can see error message "Coba ingat-ingat lagi alamat e-mail/ nomor handphone dan password kamu. Masih ada yang salah nih."
+
+
 
 #      Scenario: As user, I can't login successfully
 #        Given I am on the login page

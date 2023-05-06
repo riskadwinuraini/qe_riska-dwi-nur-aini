@@ -24,3 +24,11 @@ Feature: User be able to login
         And I click login button
         Then I can see error message "Username and password do not match any user in this service"
 
+        Scenario: register with valid credentials
+          Given I am on the register page
+          When I input valid Nama Lengkap
+          When I input valid Email
+          When I input valid Password
+          And I click register button
+          Then I am on the Home Page
+
